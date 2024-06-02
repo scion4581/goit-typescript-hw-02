@@ -1,0 +1,10 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.error {
+    padding: 10px;
+    color: red;
+    text-align: center;
+}

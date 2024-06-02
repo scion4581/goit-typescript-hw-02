@@ -1,0 +1,27 @@
+.imageModal {
+    top: '50%';
+    left: '50%';
+    right: 'auto';
+    bottom: 'auto';
+    margin-right: '-50%';
+    transform: 'translate(-50%, -50%)';
+}
+
+.imageModalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    transition: opacity 500ms ease-in-out;
+}
+
+.imageModalOverlayAfterOpen {
+    opacity: 1;
+}
+
+.imageModalOverlayBeforeClose {
+    opacity: 0;
+}
